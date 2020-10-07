@@ -14,7 +14,7 @@
 <i>mvn clean install -DskipTests</i>
 
 
-<b>Run the tests</b><br>
+<b>Test Execution</b><br><br>
 <b>The tests can be ran on Chrome and Firefox browser from command line by passing browser as a arguement as mentioned below.</b>
 
 <b>Run tests on chrome browser </b> 
