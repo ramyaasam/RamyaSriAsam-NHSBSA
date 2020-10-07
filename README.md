@@ -2,7 +2,7 @@
 
 # nhs_selenium_bdd
 
-<b>Sample test project for validating new NHS eligbility checker tool.<b>
+<b>Sample test project for validating the funcationality of the new NHS eligbility checker tool.<b>
 
 <b>Required dependencies to run this project<b><br>
 1.Java SE v8<br>
