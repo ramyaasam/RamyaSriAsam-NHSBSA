@@ -2,7 +2,7 @@
 
 # nhs_selenium_bdd
 
-<b>Sample test project for validating the funcationality of the new NHS eligbility checker tool.<b>
+<b>Sample test project for validating the functionality of the new NHS eligbility checker tool.<b>
 
 <b>Required dependencies to run this project<b><br>
 1.Java SE v8<br>
@@ -21,4 +21,4 @@
 <br><i>mvn clean test -Dbrowser="chrome"</i><br>
 
 <b>Run tests on Firefox browser</b>
-<br><i>mvn clean test -Dbroser="firefox"</i>
+<br><i>mvn clean test -Dbrowser="firefox"</i>
