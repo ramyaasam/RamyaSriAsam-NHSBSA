@@ -10,7 +10,8 @@ public class EligibilityChecker {
     EligibilityCheckerPage eligibilityCheckerPage = new EligibilityCheckerPage();
 
     @Given("^I am a person from Wales")
-    public void i_enter_my_country(){eligibilityCheckerPage.setCountryDetails();
+    public void i_enter_my_country(){
+        eligibilityCheckerPage.setCountryDetails();
     }
 
     @When("^I put my circumstances in the Checker tool")
@@ -19,5 +20,7 @@ public class EligibilityChecker {
     }
 
     @Then("^I should get a result of whether I will get help or not")
-    public void verify_the_result(){eligibilityCheckerPage.valildateHelpandBenefits();}
+    public void verify_the_result(){
+        eligibilityCheckerPage.valildateHelpandBenefits();
+    }
 }
