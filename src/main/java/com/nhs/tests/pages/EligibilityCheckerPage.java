@@ -20,7 +20,7 @@ public class EligibilityCheckerPage {
         setCountry();
     }
 
-    public void enterEligibility(){
+    public void enterMyDetailsToCheckEligibility(){
         setDoB();
         setLiveWithPartner();
         setTaxClaim();
@@ -64,16 +64,18 @@ public class EligibilityCheckerPage {
         navigateToNextPage();
     }
 
-    public void validateEligibility(){
+    public void valildateHelpandBenefits(){
         if(driver.findElement(By.xpath("//div[@class='done-panel']//h2")).isDisplayed()){
-            System.out.println(driver.findElement(By.xpath("//div[@class='done-panel']//h2")).getText());
+            if(driver.findElement(By.xpath("//h2[@class='You get free:']")).isDisplayed()){
+                System.out.println("Below are benefits you get for free");
+                System.out.println(driver.findElement(By.xpath("//h2[@class='You get free:']/following-sibling/ul")));
+            }
         }
     }
 
     private void navigateToNextPage(){
         driver.findElement(By.cssSelector("#next-button")).click();
     }
-
 
     @Before
     public void initialize(){
