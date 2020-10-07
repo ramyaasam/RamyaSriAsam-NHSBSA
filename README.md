@@ -9,12 +9,12 @@
 2.Maven
 3.Any IDE
 
-<b><h3>Compile the project</b></h3>
+<b><h1>Compile the project</b></h1>
 mvn clean install -DskipTests
 
 
-<b><h3>Run the tests</b></h3><br>
+<b><h1>Run the tests</b></h1><br>
 <b>The tests can be ran on Chrome and Firefox browser from command line by passing browser as a arguement as mentioned below.</b>
 
-Run on chrome  --> mvn clean test -Dbrowser="chrome"
-Run on Firefox --> mvn clean test -Dbroser="firefox"
+Run on chrome  <br>clean test -Dbrowser="chrome"<br>
+Run on Firefox <br>clean test -Dbroser="firefox"
