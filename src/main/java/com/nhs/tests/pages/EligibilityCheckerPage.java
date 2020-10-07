@@ -55,12 +55,6 @@ public class EligibilityCheckerPage {
     }
 
     private void setUniversalCredit(){
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElement(By.xpath("//*[@id=\"different-benefit\"]")).click();
         navigateToNextPage();
     }
