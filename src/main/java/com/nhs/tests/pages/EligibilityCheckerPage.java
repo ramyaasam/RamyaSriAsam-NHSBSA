@@ -86,7 +86,6 @@ public class EligibilityCheckerPage {
         if(System.getProperty("browser").equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver",driversPath+"chromedriver.exe");
             driver = new ChromeDriver();
-            System.out.println("THIS IS BEFORE CLASS");
         } else {
             System.setProperty("webdriver.gecko.driver",driversPath+"geckodriver.exe");
             driver = new FirefoxDriver();

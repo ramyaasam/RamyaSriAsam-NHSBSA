@@ -20,7 +20,5 @@ public class EligibilityChecker {
     }
 
     @Then("^I should get a result of whether I will get help or not")
-    public void verify_the_result() {
-        //eligibilityCheckerPage.validateEligibility();
-    }
+    public void verify_the_result(){eligibilityCheckerPage.validateEligibility();}
 }
