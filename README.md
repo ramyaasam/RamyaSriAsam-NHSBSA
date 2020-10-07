@@ -1,6 +1,6 @@
 
 
-# nhs_selenium_bdd
+# NHSBSA
 
 <b>Sample test project for validating the functionality of the new NHS eligbility checker tool.<b>
 
